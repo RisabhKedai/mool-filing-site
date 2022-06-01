@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.99" height="23.99" viewBox="0 0 23.99 23.99">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1b7237;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #151b30;
+      }
+    </style>
+  </defs>
+  <g id="Bank_Card_Insert" data-name="Bank Card Insert" transform="translate(-3 -3)">
+    <path id="Path_3133" data-name="Path 3133" class="cls-1" d="M19.661,26.325a4,4,0,0,0,4-4V5H5V22.326a4,4,0,0,0,4,4Z" transform="translate(0.666 0.666)"/>
+    <path id="Path_3134" data-name="Path 3134" class="cls-2" d="M13.941,8.39a1.333,1.333,0,0,0-1.885,0L9.39,11.056a1.333,1.333,0,1,0,1.885,1.885l.39-.39V20a1.333,1.333,0,1,0,2.666,0V12.55l.39.39a1.333,1.333,0,1,0,1.885-1.885Z" transform="translate(1.997 1.664)"/>
+    <path id="Path_3135" data-name="Path 3135" class="cls-3" d="M3,4.333A1.333,1.333,0,0,1,4.333,3H25.657a1.333,1.333,0,0,1,0,2.666H4.333A1.333,1.333,0,0,1,3,4.333Z" transform="translate(0 0)"/>
+  </g>
+</svg>
