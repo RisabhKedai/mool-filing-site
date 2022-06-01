@@ -4,19 +4,20 @@ import SubHeadText from '../../Components/SubHeadingText';
 import ResourceCard from '../../Components/ResourceCard';
 import IconCircle from '../../Components/IconCircle';
 import LearnCard from '../../Components/LearnCard';
+import Header from '../../Components/PageHeader';
 import './index.css';
 
 function HomePage(){
 	return (
 		<div>
+			<Header/>
 			<HeadText 
 				main_text="Welcome to mool (IT Return)"
 				sub_text="Start filing IT return within some clicks"
 			/>
 
 			<img src="./Assets/banner.webp"
-				srcset="./Assets/banner2x.webp 2x,
-				./Assets/banner3x.webp 3x"
+				srcSet="./Assets/banner2x.webp 2x, ./Assets/banner3x.webp 3x"
 				className="bannerimg"/>
 
 
@@ -62,7 +63,7 @@ function HomePage(){
 			<LearnCard text="Guides"/>
 			<LearnCard text="FAQ"/>
 			<LearnCard text="Support"/>
-			</div>
+		</div>
 	);	
 }
 
