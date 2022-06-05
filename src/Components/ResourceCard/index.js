@@ -3,7 +3,7 @@ import IconCircle from '../IconCircle';
 import HeadText from '../HeadingText';
 import SubHeadText from '../SubHeadingText';
 import * as AntIcon from "@ant-design/icons";
-import './index.css';
+import './index.less';
 
 function ResourceCard({icon,color, head, subhead, link}){
 	// useEffect(()=>{console.log(icon)});

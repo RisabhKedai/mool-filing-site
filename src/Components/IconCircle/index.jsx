@@ -1,6 +1,8 @@
 import React from 'react';
 import {useEffect} from 'react';
-import './index.less';
+import './index.css';
+
+
 
 function IconCircle({icon,color}){
 	useEffect(()=>{console.log(color)});
@@ -9,13 +11,12 @@ function IconCircle({icon,color}){
 		<div className='iconcircle' style={{
 			backgroundColor:color,
 		}}>
-			<img src={svg_path} opacity={1} alt={icon}/>
+			<img src={svg_path} opacity={1}/>
 		</div>
 	);
 }
 
 export default IconCircle;
-
 
 
 

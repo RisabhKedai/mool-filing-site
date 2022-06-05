@@ -1,4 +1,4 @@
-import {DatePicker } from 'antd';
+import FinanceYearPicker from '../../Components/FinanceYearPicker'; 
 import {UserOutlined, QuestionCircleOutlined,CalendarOutlined } from '@ant-design/icons';
 import './index.less';
 
@@ -8,11 +8,9 @@ function Header(){
 			<div className="header-container">
 				<div className="image-container">
 					<img src="./Assets/Mool.png">
-						
 					</img>
 				</div>
 				<div className="button-container">
-
 					<div className="year-container">
 						<div className="year-container-icon">
 							<CalendarOutlined />
@@ -21,7 +19,7 @@ function Header(){
 							Financial Year
 						</div>
 						<div className="year-container-selector">
-							<DatePicker picker="year" allowClear={false} className="year-picker"/>
+							 <FinanceYearPicker/>
 						</div>
 					</div>
 					<div className="help-container">

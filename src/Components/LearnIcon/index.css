@@ -1,17 +1,17 @@
 .outrect {
-  width: 24px;
-  height: 24px;
-  margin: 0 20px 0 0;
-  padding: 12.5px 10.5px 12.4px 11px;
-  border-radius: 2.5px;
-  background-color: #e8e9ee;
+	width: 24px;
+	height: 24px;
+	margin: 0 20px 0 0;
+	padding: 12.5px 10.5px 12.4px 11px;
+	border-radius: 2.5px;
+	background-color: #e8e9ee;
 }
 
 .inrect {
-  width: 22.5px;
-  height: 16.5px;
-  margin: 0 0 2.6px;
-  opacity: 0.25;
-  border-radius: 1.5px;
-  background-color: #90919b;
+	width: 22.5px;
+	height: 16.5px;
+	margin: 0 0 2.6px;
+	opacity: 0.25;
+	border-radius: 1.5px;
+	background-color: #90919b;
 }
