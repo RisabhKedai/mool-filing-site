@@ -4,7 +4,7 @@ import './index.css'
 function SubHeadText({text}){
 	return (
 		<div>
-			<span className="text">{text}</span>
+			<div className="text">{text}</div>
 		</div>
 	);	
 }

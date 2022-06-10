@@ -1,28 +1,17 @@
 
 .main-text{
-	width: 192.5px;
-	height: 18.5px;
-	margin: 25.5px 47.5px 5px 3px;
 	font-size: 15px;
 	font-weight: bold;
 	font-stretch: normal;
 	font-style: normal;
-	line-height: normal;
 	letter-spacing: normal;
-	text-align: left;
 	color: #151b30;
 }
 
 .sub-text{
-	width: 170px;
-	height: 11px;
-	margin: 5px 70px 20px 3px;
 	font-size: 9px;
 	font-weight: 500;
 	font-stretch: normal;
 	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	text-align: left;
 	color: #696a6e;
 }

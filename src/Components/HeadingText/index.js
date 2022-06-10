@@ -1,12 +1,10 @@
-import {useEffect} from 'react';
 import './index.css'
 
 function HeadText({main_text,sub_text}){
 	return (
 		<div className="headtext">
-			<span className="main-text">{main_text}</span>
-			<br/>
-			<span className="sub-text">{sub_text}</span>
+			<div className="main-text">{main_text}</div>
+			<div className="sub-text">{sub_text}</div>
 		</div>
 	);	
 }

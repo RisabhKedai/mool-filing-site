@@ -1,8 +1,6 @@
-import {useEffect} from 'react';
 import IconCircle from '../IconCircle';
 import HeadText from '../HeadingText';
 import SubHeadText from '../SubHeadingText';
-import * as AntIcon from "@ant-design/icons";
 import './index.less';
 
 function ResourceCard({icon,color, head, subhead, link}){
@@ -12,9 +10,9 @@ function ResourceCard({icon,color, head, subhead, link}){
 			<IconCircle icon={icon} color={color}/>
 			<SubHeadText text={head}/>
 			<HeadText main_text="" sub_text={subhead}/>
-			<span className='knowmore'>
+			<div className='knowmore'>
 				<a href={link}>Know More ↗</a>
-			</span>
+			</div>
 		</div>
 	);
 }

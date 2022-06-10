@@ -1,7 +1,7 @@
 import {useEffect} from 'react';
 import HeadText from '../../Components/HeadingText';
 import SubHeadText from '../../Components/SubHeadingText';
-import ResourceCard from '../../Components/ResourceCard';
+import Resources from './Resources';
 import IconCircle from '../../Components/IconCircle';
 import LearnCard from '../../Components/LearnCard';
 import Header from '../../Components/PageHeader';
@@ -20,34 +20,7 @@ function HomePage(){
 				srcSet="./Assets/banner2x.webp 2x, ./Assets/banner3x.webp 3x"
 				className="bannerimg"/>
 
-
-			<SubHeadText 
-				text="Resources"
-			/>
-
-			<ResourceCard 
-				icon="Calculator.svg"
-				color='#ffecce'
-				head='New vs Old Regime'
-				subhead="Two type of regime which to choose is getting your head scratching"
-				link='www.google.com'
-			/>
-
-			<ResourceCard 
-				icon="Coupon Discount.svg"
-				color='#ecceff'
-				head='Tax Savings'
-				subhead="Two type of regime which to choose is getting your head scratching"
-				link='www.google.com'
-			/>
-
-			<ResourceCard 
-				icon="Bank Card Insert.svg"
-				color='#c6f5d5'
-				head='Advanced Tax'
-				subhead="Two type of regime which to choose is getting your head scratching"
-				link='www.google.com'
-			/>
+			<Resources/>
 
 			<SubHeadText 
 				text="Learn how to use Mool (IT return)"
