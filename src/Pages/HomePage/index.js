@@ -9,33 +9,35 @@ import './index.css';
 
 function HomePage(){
 	return (
-		<div>
+		<div className = "homediv">
 			<Header/>
-			<HeadText 
-				main_text="Welcome to mool (IT Return)"
-				sub_text="Start filing IT return within some clicks"
-			/>
+			<div className="bodydiv">
+				<HeadText 
+					main_text="Welcome to mool (IT Return)"
+					sub_text="Start filing IT return within some clicks"
+				/>
 
-			<img src="./Assets/banner.webp"
-				srcSet="./Assets/banner2x.webp 2x, ./Assets/banner3x.webp 3x"
-				className="bannerimg"/>
+				<img src="./Assets/banner.webp"
+					srcSet="./Assets/banner2x.webp 2x, ./Assets/banner3x.webp 3x"
+					className="bannerimg"/>
 
-			<Resources/>
+				<Resources/>
 
-			<SubHeadText 
-				text="Learn how to use Mool (IT return)"
-			/>
-			<iframe 
-				width="238.4"
-				height="154"
-				src="https://www.youtube.com/embed/1felZa3fAMg"
-				style={{borderRadius:10}}
-			>	
-			</iframe>
+				<SubHeadText 
+					text="Learn how to use Mool (IT return)"
+				/>``
+				<iframe 
+					width="238.4"
+					height="154"
+					src="https://www.youtube.com/embed/1felZa3fAMg"
+					style={{borderRadius:10}}
+				>	
+				</iframe>
 
-			<LearnCard text="Guides"/>
-			<LearnCard text="FAQ"/>
-			<LearnCard text="Support"/>
+				<LearnCard text="Guides"/>
+				<LearnCard text="FAQ"/>
+				<LearnCard text="Support"/>
+			</div>
 		</div>
 	);	
 }

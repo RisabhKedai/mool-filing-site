@@ -1,6 +1,6 @@
 import React from 'react';
 import {DatePicker} from 'antd';
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 import {DownOutlined} from "@ant-design/icons";
 import moment from 'moment';
 
